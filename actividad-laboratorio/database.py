@@ -7,9 +7,9 @@ import psycopg2
 def get_conexion():
     try:
         conexion = psycopg2.connect(
-            database='ayudantia_bd', # Indicar la base de datos a la que se conectará
+            database='', # Indicar la base de datos a la que se conectará
             user='postgres', # Indicar el usuario de la base de datos
-            password='080808', # Indicar la contraseña del usuario
+            password='', # Indicar la contraseña del usuario
             host='localhost',  # Indicar el host donde se encuentra la base de datos
             port='5432' # Indicar el puerto donde se encuentra la base de datos
         )
